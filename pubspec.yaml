@@ -17,3 +17,13 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  
+  assets:
+    - assets/bandera_ecuador.jpg
+    - assets/escudo_ecuador.png
+    - assets/peru_bandera.jpg
+    - assets/peru_escudo.png
+    - assets/colombia_bandera.jpg
+    - assets/colombia_escudo.png
+    
