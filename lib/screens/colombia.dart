@@ -8,7 +8,7 @@ class ColombiaScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Colombia'),
-        backgroundColor: const Color.fromARGB(255, 243, 2, 2),
+        backgroundColor: const Color.fromARGB(255, 2, 243, 70),
       ),
       body: SingleChildScrollView(
         child: Center(
