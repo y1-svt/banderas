@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(title: 'Países Sudamericanos', home: HomeScreen());
+    return MaterialApp(title: 'Países', home: HomeScreen());
   }
 }
 
@@ -35,7 +35,7 @@ class HomeScreen extends StatelessWidget {
               child: Container(
                 margin: const EdgeInsets.all(8),
                 decoration: BoxDecoration(
-                  border: Border.all(color: const Color.fromARGB(255, 0, 0, 0), width: 2),
+                  border: Border.all(color: Colors.black, width: 2),
                   color: const Color.fromARGB(255, 253, 249, 3),
                 ),
                 child: const Center(
@@ -61,7 +61,7 @@ class HomeScreen extends StatelessWidget {
                 margin: const EdgeInsets.all(8),
                 decoration: BoxDecoration(
                   border: Border.all(color: Colors.black, width: 2),
-                  color: const Color.fromARGB(255, 6, 117, 197),
+                  color: const Color.fromARGB(255, 18, 6, 197),
                 ),
                 child: const Center(
                   child: Text(
@@ -86,7 +86,7 @@ class HomeScreen extends StatelessWidget {
                 margin: const EdgeInsets.all(8),
                 decoration: BoxDecoration(
                   border: Border.all(color: Colors.black, width: 2),
-                  color: const Color.fromARGB(255, 38, 37, 37),
+                  color: const Color.fromARGB(255, 236, 33, 33),
                 ),
                 child: const Center(
                   child: Text(

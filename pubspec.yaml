@@ -9,6 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  http: ^1.4.0
 
 dev_dependencies:
   flutter_test:
@@ -26,4 +27,3 @@ flutter:
     - assets/peru_escudo.png
     - assets/colombia_bandera.jpg
     - assets/colombia_escudo.png
-    
